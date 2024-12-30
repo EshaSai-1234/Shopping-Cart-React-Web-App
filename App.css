@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 150px;
+  margin: 10px;
+  text-align: center;
+}
+
+.product-image {
+  width: 150px;
+  height: 150px;
+  object-fit: contain; /* Ensures full image fits inside container */
+}
+
+.product-detail-image {
+  width: 400px;
+  height: 400px;
+  object-fit: cover; /* Crops image to fill container */
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.cart {
+  margin-top: 20px;
+}
